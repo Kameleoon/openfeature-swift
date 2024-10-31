@@ -20,8 +20,8 @@ This section explains how to install, configure, and customize the Kameleoon Ope
 First, choose your preferred dependency manager from the following options and install the required dependencies in your application.
 
 <details>
-  <summary>Swift Package Manager</summary>
-
+<summary>Swift Package Manager</summary>
+<br/>
 With <a href="https://github.com/apple/swift-package-manager">Swift Package Manager</a>, add a <a href="https://developer.apple.com/documentation/xcode/adding_package_dependencies_to_your_app">package dependency to your Xcode project</a>. Select **File > Swift Packages > Add Package Dependency** and enter the repository URL: `https://github.com/Kameleoon/openfeature-swift.git`.
 
 Alternatively, you can modify your `Package.swift` file directly:
@@ -33,8 +33,8 @@ dependencies: [
 ```
 </details>
 <details>
-  <summary>Cocoapods</summary>
-
+<summary>Cocoapods</summary>
+<br/>
 With <a href="https://guides.cocoapods.org/using/using-cocoapods.html">CocoaPods</a>, paste the following code in your Podfile and replace `YOUR_TARGET_NAME` with the value for your app:
 
 ```swift
