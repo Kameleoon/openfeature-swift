@@ -1,0 +1,6 @@
+framework module KameleoonOpenfeature {
+  umbrella header "KameleoonOpenfeature.h"
+  export *
+
+  module * { export * }
+}

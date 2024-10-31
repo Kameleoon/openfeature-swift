@@ -1,0 +1,24 @@
+{
+  "originHash" : "b0bc982b1f48ddba3f96aa743b1a1052eebb9e73bf5a4eff1da0ca99295ff259",
+  "pins" : [
+    {
+      "identity" : "client-swift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Kameleoon/client-swift",
+      "state" : {
+        "revision" : "41ba5d876997f3cbdec21be937f9f7a2420eff9a",
+        "version" : "4.6.1"
+      }
+    },
+    {
+      "identity" : "swift-sdk",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/open-feature/swift-sdk",
+      "state" : {
+        "revision" : "907567cf9d43aad4c015a8758a7d53d755e76213",
+        "version" : "0.2.0"
+      }
+    }
+  ],
+  "version" : 3
+}

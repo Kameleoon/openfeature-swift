@@ -1,0 +1,1329 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "KameleoonOpenfeature",
+    "printedName": "KameleoonOpenfeature",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "KameleoonOpenfeature",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "kameleoonClient",
+        "printedName": "kameleoonClient",
+        "declKind": "Import",
+        "moduleName": "KameleoonOpenfeature"
+      },
+      {
+        "kind": "Import",
+        "name": "OpenFeature",
+        "printedName": "OpenFeature",
+        "declKind": "Import",
+        "moduleName": "KameleoonOpenfeature"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "KameleoonOpenfeature",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "kameleoonClient",
+        "printedName": "kameleoonClient",
+        "declKind": "Import",
+        "moduleName": "KameleoonOpenfeature"
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "KameleoonOpenfeature"
+      },
+      {
+        "kind": "Import",
+        "name": "OpenFeature",
+        "printedName": "OpenFeature",
+        "declKind": "Import",
+        "moduleName": "KameleoonOpenfeature"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "KameleoonProvider",
+        "printedName": "KameleoonProvider",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "hooks",
+            "printedName": "hooks",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[any OpenFeature.Hook]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Hook",
+                    "printedName": "any OpenFeature.Hook",
+                    "usr": "s:11OpenFeature4HookP"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20KameleoonOpenfeature0A8ProviderC5hooksSay11OpenFeature4Hook_pGvp",
+            "mangledName": "$s20KameleoonOpenfeature0A8ProviderC5hooksSay11OpenFeature4Hook_pGvp",
+            "moduleName": "KameleoonOpenfeature",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[any OpenFeature.Hook]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Hook",
+                        "printedName": "any OpenFeature.Hook",
+                        "usr": "s:11OpenFeature4HookP"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20KameleoonOpenfeature0A8ProviderC5hooksSay11OpenFeature4Hook_pGvg",
+                "mangledName": "$s20KameleoonOpenfeature0A8ProviderC5hooksSay11OpenFeature4Hook_pGvg",
+                "moduleName": "KameleoonOpenfeature",
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "metadata",
+            "printedName": "metadata",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ProviderMetadata",
+                "printedName": "any OpenFeature.ProviderMetadata",
+                "usr": "s:11OpenFeature16ProviderMetadataP"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20KameleoonOpenfeature0A8ProviderC8metadata11OpenFeature0C8Metadata_pvp",
+            "mangledName": "$s20KameleoonOpenfeature0A8ProviderC8metadata11OpenFeature0C8Metadata_pvp",
+            "moduleName": "KameleoonOpenfeature",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProviderMetadata",
+                    "printedName": "any OpenFeature.ProviderMetadata",
+                    "usr": "s:11OpenFeature16ProviderMetadataP"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20KameleoonOpenfeature0A8ProviderC8metadata11OpenFeature0C8Metadata_pvg",
+                "mangledName": "$s20KameleoonOpenfeature0A8ProviderC8metadata11OpenFeature0C8Metadata_pvg",
+                "moduleName": "KameleoonOpenfeature",
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(siteCode:visitorCode:config:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "KameleoonProvider",
+                "printedName": "KameleoonOpenfeature.KameleoonProvider",
+                "usr": "s:20KameleoonOpenfeature0A8ProviderC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "kameleoonClient.KameleoonClientConfig?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KameleoonClientConfig",
+                    "printedName": "kameleoonClient.KameleoonClientConfig",
+                    "usr": "s:15kameleoonClient09KameleoonB6ConfigV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:20KameleoonOpenfeature0A8ProviderC8siteCode07visitorE06configACSS_SSSg15kameleoonClient0aI6ConfigVSgtKcfc",
+            "mangledName": "$s20KameleoonOpenfeature0A8ProviderC8siteCode07visitorE06configACSS_SSSg15kameleoonClient0aI6ConfigVSgtKcfc",
+            "moduleName": "KameleoonOpenfeature",
+            "declAttributes": [
+              "Convenience",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "init_kind": "Convenience"
+          },
+          {
+            "kind": "Function",
+            "name": "getBooleanEvaluation",
+            "printedName": "getBooleanEvaluation(key:defaultValue:context:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ProviderEvaluation",
+                "printedName": "OpenFeature.ProviderEvaluation<Swift.Bool>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:11OpenFeature18ProviderEvaluationV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any OpenFeature.EvaluationContext)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "EvaluationContext",
+                    "printedName": "any OpenFeature.EvaluationContext",
+                    "usr": "s:11OpenFeature17EvaluationContextP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20KameleoonOpenfeature0A8ProviderC20getBooleanEvaluation3key12defaultValue7context11OpenFeature0cF0VySbGSS_SbAH0F7Context_pSgtKF",
+            "mangledName": "$s20KameleoonOpenfeature0A8ProviderC20getBooleanEvaluation3key12defaultValue7context11OpenFeature0cF0VySbGSS_SbAH0F7Context_pSgtKF",
+            "moduleName": "KameleoonOpenfeature",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getStringEvaluation",
+            "printedName": "getStringEvaluation(key:defaultValue:context:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ProviderEvaluation",
+                "printedName": "OpenFeature.ProviderEvaluation<Swift.String>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:11OpenFeature18ProviderEvaluationV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any OpenFeature.EvaluationContext)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "EvaluationContext",
+                    "printedName": "any OpenFeature.EvaluationContext",
+                    "usr": "s:11OpenFeature17EvaluationContextP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20KameleoonOpenfeature0A8ProviderC19getStringEvaluation3key12defaultValue7context11OpenFeature0cF0VySSGSS_SSAH0F7Context_pSgtKF",
+            "mangledName": "$s20KameleoonOpenfeature0A8ProviderC19getStringEvaluation3key12defaultValue7context11OpenFeature0cF0VySSGSS_SSAH0F7Context_pSgtKF",
+            "moduleName": "KameleoonOpenfeature",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getIntegerEvaluation",
+            "printedName": "getIntegerEvaluation(key:defaultValue:context:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ProviderEvaluation",
+                "printedName": "OpenFeature.ProviderEvaluation<Swift.Int64>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int64",
+                    "printedName": "Swift.Int64",
+                    "usr": "s:s5Int64V"
+                  }
+                ],
+                "usr": "s:11OpenFeature18ProviderEvaluationV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int64",
+                "printedName": "Swift.Int64",
+                "usr": "s:s5Int64V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any OpenFeature.EvaluationContext)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "EvaluationContext",
+                    "printedName": "any OpenFeature.EvaluationContext",
+                    "usr": "s:11OpenFeature17EvaluationContextP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20KameleoonOpenfeature0A8ProviderC20getIntegerEvaluation3key12defaultValue7context11OpenFeature0cF0Vys5Int64VGSS_AlH0F7Context_pSgtKF",
+            "mangledName": "$s20KameleoonOpenfeature0A8ProviderC20getIntegerEvaluation3key12defaultValue7context11OpenFeature0cF0Vys5Int64VGSS_AlH0F7Context_pSgtKF",
+            "moduleName": "KameleoonOpenfeature",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getDoubleEvaluation",
+            "printedName": "getDoubleEvaluation(key:defaultValue:context:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ProviderEvaluation",
+                "printedName": "OpenFeature.ProviderEvaluation<Swift.Double>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "usr": "s:11OpenFeature18ProviderEvaluationV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any OpenFeature.EvaluationContext)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "EvaluationContext",
+                    "printedName": "any OpenFeature.EvaluationContext",
+                    "usr": "s:11OpenFeature17EvaluationContextP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20KameleoonOpenfeature0A8ProviderC19getDoubleEvaluation3key12defaultValue7context11OpenFeature0cF0VySdGSS_SdAH0F7Context_pSgtKF",
+            "mangledName": "$s20KameleoonOpenfeature0A8ProviderC19getDoubleEvaluation3key12defaultValue7context11OpenFeature0cF0VySdGSS_SdAH0F7Context_pSgtKF",
+            "moduleName": "KameleoonOpenfeature",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getObjectEvaluation",
+            "printedName": "getObjectEvaluation(key:defaultValue:context:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ProviderEvaluation",
+                "printedName": "OpenFeature.ProviderEvaluation<OpenFeature.Value>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Value",
+                    "printedName": "OpenFeature.Value",
+                    "usr": "s:11OpenFeature5ValueO"
+                  }
+                ],
+                "usr": "s:11OpenFeature18ProviderEvaluationV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Value",
+                "printedName": "OpenFeature.Value",
+                "usr": "s:11OpenFeature5ValueO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any OpenFeature.EvaluationContext)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "EvaluationContext",
+                    "printedName": "any OpenFeature.EvaluationContext",
+                    "usr": "s:11OpenFeature17EvaluationContextP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20KameleoonOpenfeature0A8ProviderC19getObjectEvaluation3key12defaultValue7context11OpenFeature0cF0VyAH0I0OGSS_AlH0F7Context_pSgtKF",
+            "mangledName": "$s20KameleoonOpenfeature0A8ProviderC19getObjectEvaluation3key12defaultValue7context11OpenFeature0cF0VyAH0I0OGSS_AlH0F7Context_pSgtKF",
+            "moduleName": "KameleoonOpenfeature",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "initialize",
+            "printedName": "initialize(initialContext:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any OpenFeature.EvaluationContext)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "EvaluationContext",
+                    "printedName": "any OpenFeature.EvaluationContext",
+                    "usr": "s:11OpenFeature17EvaluationContextP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20KameleoonOpenfeature0A8ProviderC10initialize14initialContexty11OpenFeature010EvaluationF0_pSg_tF",
+            "mangledName": "$s20KameleoonOpenfeature0A8ProviderC10initialize14initialContexty11OpenFeature010EvaluationF0_pSg_tF",
+            "moduleName": "KameleoonOpenfeature",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onContextSet",
+            "printedName": "onContextSet(oldContext:newContext:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any OpenFeature.EvaluationContext)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "EvaluationContext",
+                    "printedName": "any OpenFeature.EvaluationContext",
+                    "usr": "s:11OpenFeature17EvaluationContextP"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "EvaluationContext",
+                "printedName": "any OpenFeature.EvaluationContext",
+                "usr": "s:11OpenFeature17EvaluationContextP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20KameleoonOpenfeature0A8ProviderC12onContextSet03oldE003newE0y11OpenFeature010EvaluationE0_pSg_AgH_ptF",
+            "mangledName": "$s20KameleoonOpenfeature0A8ProviderC12onContextSet03oldE003newE0y11OpenFeature010EvaluationE0_pSg_AgH_ptF",
+            "moduleName": "KameleoonOpenfeature",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "observe",
+            "printedName": "observe()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AnyPublisher",
+                "printedName": "Combine.AnyPublisher<OpenFeature.ProviderEvent, Swift.Never>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProviderEvent",
+                    "printedName": "OpenFeature.ProviderEvent",
+                    "usr": "s:11OpenFeature13ProviderEventO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Never",
+                    "printedName": "Swift.Never",
+                    "usr": "s:s5NeverO"
+                  }
+                ],
+                "usr": "s:7Combine12AnyPublisherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20KameleoonOpenfeature0A8ProviderC7observe7Combine12AnyPublisherVy11OpenFeature0C5EventOs5NeverOGyF",
+            "mangledName": "$s20KameleoonOpenfeature0A8ProviderC7observe7Combine12AnyPublisherVy11OpenFeature0C5EventOs5NeverOGyF",
+            "moduleName": "KameleoonOpenfeature",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:20KameleoonOpenfeature0A8ProviderC",
+        "mangledName": "$s20KameleoonOpenfeature0A8ProviderC",
+        "moduleName": "KameleoonOpenfeature",
+        "declAttributes": [
+          "Final",
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "FeatureProvider",
+            "printedName": "FeatureProvider",
+            "usr": "s:11OpenFeature0B8ProviderP",
+            "mangledName": "$s11OpenFeature0B8ProviderP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "EventPublisher",
+            "printedName": "EventPublisher",
+            "usr": "s:11OpenFeature14EventPublisherP",
+            "mangledName": "$s11OpenFeature14EventPublisherP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "KameleoonOpenfeature",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "kameleoonClient",
+        "printedName": "kameleoonClient",
+        "declKind": "Import",
+        "moduleName": "KameleoonOpenfeature"
+      },
+      {
+        "kind": "Import",
+        "name": "OpenFeature",
+        "printedName": "OpenFeature",
+        "declKind": "Import",
+        "moduleName": "KameleoonOpenfeature"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "KameleoonOpenfeature",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "OpenFeature",
+        "printedName": "OpenFeature",
+        "declKind": "Import",
+        "moduleName": "KameleoonOpenfeature"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DataType",
+        "printedName": "DataType",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "variableKey",
+            "printedName": "variableKey",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20KameleoonOpenfeature8DataTypeV11variableKeySSvpZ",
+            "mangledName": "$s20KameleoonOpenfeature8DataTypeV11variableKeySSvpZ",
+            "moduleName": "KameleoonOpenfeature",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20KameleoonOpenfeature8DataTypeV11variableKeySSvgZ",
+                "mangledName": "$s20KameleoonOpenfeature8DataTypeV11variableKeySSvgZ",
+                "moduleName": "KameleoonOpenfeature",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "conversion",
+            "printedName": "conversion",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20KameleoonOpenfeature8DataTypeV10conversionSSvpZ",
+            "mangledName": "$s20KameleoonOpenfeature8DataTypeV10conversionSSvpZ",
+            "moduleName": "KameleoonOpenfeature",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20KameleoonOpenfeature8DataTypeV10conversionSSvgZ",
+                "mangledName": "$s20KameleoonOpenfeature8DataTypeV10conversionSSvgZ",
+                "moduleName": "KameleoonOpenfeature",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "customData",
+            "printedName": "customData",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20KameleoonOpenfeature8DataTypeV06customC0SSvpZ",
+            "mangledName": "$s20KameleoonOpenfeature8DataTypeV06customC0SSvpZ",
+            "moduleName": "KameleoonOpenfeature",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20KameleoonOpenfeature8DataTypeV06customC0SSvgZ",
+                "mangledName": "$s20KameleoonOpenfeature8DataTypeV06customC0SSvgZ",
+                "moduleName": "KameleoonOpenfeature",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "makeConversion",
+            "printedName": "makeConversion(goalId:revenue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Value",
+                "printedName": "OpenFeature.Value",
+                "usr": "s:11OpenFeature5ValueO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "hasDefaultArg": true,
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20KameleoonOpenfeature8DataTypeV14makeConversion6goalId7revenue11OpenFeature5ValueOSi_SdtFZ",
+            "mangledName": "$s20KameleoonOpenfeature8DataTypeV14makeConversion6goalId7revenue11OpenFeature5ValueOSi_SdtFZ",
+            "moduleName": "KameleoonOpenfeature",
+            "static": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "makeCustomData",
+            "printedName": "makeCustomData(id:values:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Value",
+                "printedName": "OpenFeature.Value",
+                "usr": "s:11OpenFeature5ValueO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20KameleoonOpenfeature8DataTypeV010makeCustomC02id6values11OpenFeature5ValueOSi_SaySSGtFZ",
+            "mangledName": "$s20KameleoonOpenfeature8DataTypeV010makeCustomC02id6values11OpenFeature5ValueOSi_SaySSGtFZ",
+            "moduleName": "KameleoonOpenfeature",
+            "static": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "makeCustomData",
+            "printedName": "makeCustomData(id:values:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Value",
+                "printedName": "OpenFeature.Value",
+                "usr": "s:11OpenFeature5ValueO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20KameleoonOpenfeature8DataTypeV010makeCustomC02id6values11OpenFeature5ValueOSi_SSdtFZ",
+            "mangledName": "$s20KameleoonOpenfeature8DataTypeV010makeCustomC02id6values11OpenFeature5ValueOSi_SSdtFZ",
+            "moduleName": "KameleoonOpenfeature",
+            "static": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:20KameleoonOpenfeature8DataTypeV",
+        "mangledName": "$s20KameleoonOpenfeature8DataTypeV",
+        "moduleName": "KameleoonOpenfeature",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CustomDataType",
+        "printedName": "CustomDataType",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "index",
+            "printedName": "index",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20KameleoonOpenfeature14CustomDataTypeV5indexSSvpZ",
+            "mangledName": "$s20KameleoonOpenfeature14CustomDataTypeV5indexSSvpZ",
+            "moduleName": "KameleoonOpenfeature",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20KameleoonOpenfeature14CustomDataTypeV5indexSSvgZ",
+                "mangledName": "$s20KameleoonOpenfeature14CustomDataTypeV5indexSSvgZ",
+                "moduleName": "KameleoonOpenfeature",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "values",
+            "printedName": "values",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20KameleoonOpenfeature14CustomDataTypeV6valuesSSvpZ",
+            "mangledName": "$s20KameleoonOpenfeature14CustomDataTypeV6valuesSSvpZ",
+            "moduleName": "KameleoonOpenfeature",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20KameleoonOpenfeature14CustomDataTypeV6valuesSSvgZ",
+                "mangledName": "$s20KameleoonOpenfeature14CustomDataTypeV6valuesSSvgZ",
+                "moduleName": "KameleoonOpenfeature",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:20KameleoonOpenfeature14CustomDataTypeV",
+        "mangledName": "$s20KameleoonOpenfeature14CustomDataTypeV",
+        "moduleName": "KameleoonOpenfeature",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ConversionType",
+        "printedName": "ConversionType",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "goalId",
+            "printedName": "goalId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20KameleoonOpenfeature14ConversionTypeV6goalIdSSvpZ",
+            "mangledName": "$s20KameleoonOpenfeature14ConversionTypeV6goalIdSSvpZ",
+            "moduleName": "KameleoonOpenfeature",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20KameleoonOpenfeature14ConversionTypeV6goalIdSSvgZ",
+                "mangledName": "$s20KameleoonOpenfeature14ConversionTypeV6goalIdSSvgZ",
+                "moduleName": "KameleoonOpenfeature",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "revenue",
+            "printedName": "revenue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20KameleoonOpenfeature14ConversionTypeV7revenueSSvpZ",
+            "mangledName": "$s20KameleoonOpenfeature14ConversionTypeV7revenueSSvpZ",
+            "moduleName": "KameleoonOpenfeature",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20KameleoonOpenfeature14ConversionTypeV7revenueSSvgZ",
+                "mangledName": "$s20KameleoonOpenfeature14ConversionTypeV7revenueSSvgZ",
+                "moduleName": "KameleoonOpenfeature",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:20KameleoonOpenfeature14ConversionTypeV",
+        "mangledName": "$s20KameleoonOpenfeature14ConversionTypeV",
+        "moduleName": "KameleoonOpenfeature",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/dmitryae\/Work\/Freelance\/Kameleoon\/gitlab-runner\/builds\/u2wEi-pEt\/0\/sdk\/openfeature-swift\/KameleoonOpenfeature\/KameleoonProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 6131,
+      "length": 20,
+      "value": "\"Kameleoon Provider\""
+    },
+    {
+      "filePath": "\/Users\/dmitryae\/Work\/Freelance\/Kameleoon\/gitlab-runner\/builds\/u2wEi-pEt\/0\/sdk\/openfeature-swift\/KameleoonOpenfeature\/Types.swift",
+      "kind": "StringLiteral",
+      "offset": 273,
+      "length": 13,
+      "value": "\"variableKey\""
+    },
+    {
+      "filePath": "\/Users\/dmitryae\/Work\/Freelance\/Kameleoon\/gitlab-runner\/builds\/u2wEi-pEt\/0\/sdk\/openfeature-swift\/KameleoonOpenfeature\/Types.swift",
+      "kind": "StringLiteral",
+      "offset": 322,
+      "length": 12,
+      "value": "\"conversion\""
+    },
+    {
+      "filePath": "\/Users\/dmitryae\/Work\/Freelance\/Kameleoon\/gitlab-runner\/builds\/u2wEi-pEt\/0\/sdk\/openfeature-swift\/KameleoonOpenfeature\/Types.swift",
+      "kind": "StringLiteral",
+      "offset": 370,
+      "length": 12,
+      "value": "\"customData\""
+    },
+    {
+      "filePath": "\/Users\/dmitryae\/Work\/Freelance\/Kameleoon\/gitlab-runner\/builds\/u2wEi-pEt\/0\/sdk\/openfeature-swift\/KameleoonOpenfeature\/Types.swift",
+      "kind": "FloatLiteral",
+      "offset": 516,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/dmitryae\/Work\/Freelance\/Kameleoon\/gitlab-runner\/builds\/u2wEi-pEt\/0\/sdk\/openfeature-swift\/KameleoonOpenfeature\/Types.swift",
+      "kind": "StringLiteral",
+      "offset": 1328,
+      "length": 7,
+      "value": "\"index\""
+    },
+    {
+      "filePath": "\/Users\/dmitryae\/Work\/Freelance\/Kameleoon\/gitlab-runner\/builds\/u2wEi-pEt\/0\/sdk\/openfeature-swift\/KameleoonOpenfeature\/Types.swift",
+      "kind": "StringLiteral",
+      "offset": 1367,
+      "length": 8,
+      "value": "\"values\""
+    },
+    {
+      "filePath": "\/Users\/dmitryae\/Work\/Freelance\/Kameleoon\/gitlab-runner\/builds\/u2wEi-pEt\/0\/sdk\/openfeature-swift\/KameleoonOpenfeature\/Types.swift",
+      "kind": "StringLiteral",
+      "offset": 1515,
+      "length": 8,
+      "value": "\"goalId\""
+    },
+    {
+      "filePath": "\/Users\/dmitryae\/Work\/Freelance\/Kameleoon\/gitlab-runner\/builds\/u2wEi-pEt\/0\/sdk\/openfeature-swift\/KameleoonOpenfeature\/Types.swift",
+      "kind": "StringLiteral",
+      "offset": 1556,
+      "length": 9,
+      "value": "\"revenue\""
+    }
+  ]
+}
